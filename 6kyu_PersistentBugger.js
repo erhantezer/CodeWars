@@ -16,7 +16,7 @@
 
 //  persistence(4) === 0 // because 4 is already a one-digit number
 
- let persistence = function(n) {
+ let persistence = (n) => {
   let times = 0;
   while(n.toString().length > 1) {
     times += 1;
